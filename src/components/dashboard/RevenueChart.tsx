@@ -64,7 +64,7 @@ const CustomTooltip: React.FC<any> = ({ active, payload }) => {
     return null;
 };
 
-const CustomYAxisTick = ({ x, y, payload }: any) => {
+const CustomYAxisTick = ({ y, payload }: any) => {
     return (
         <g transform={`translate(0,${y})`}>
             <text x={0} y={0} dy={4} textAnchor="start" fill="#9ca3af" fontSize={12}>

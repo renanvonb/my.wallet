@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container } from '../ui/Container';
-import { Section } from '../ui/Section';
-import { Button } from '../ui/Button';
+import { Container } from '../ui/container';
+import { Section } from '../ui/section';
+import { Button } from '../ui/button';
 
 export const CallToAction: React.FC = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container } from '../ui/Container';
-import { Button } from '../ui/Button';
-import { Section } from '../ui/Section';
+import { Container } from '../ui/container';
+import { Button } from '../ui/button';
+import { Section } from '../ui/section';
 import { ArrowRight, TrendingUp, ShieldCheck, PieChart } from 'lucide-react';
 import { motion } from 'framer-motion';
 

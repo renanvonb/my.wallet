@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Container } from '../ui/Container';
-import { Button } from '../ui/Button';
+import { Container } from '../ui/container';
+import { Button } from '../ui/button';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';

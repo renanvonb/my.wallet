@@ -27,7 +27,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         }
     }, []);
 
-    const login = async (email: string, password?: string) => {
+    const login = async (email: string, _password?: string) => {
         // Simulate API call
         return new Promise<void>((resolve, reject) => {
             setTimeout(() => {

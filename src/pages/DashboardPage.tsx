@@ -10,9 +10,9 @@ import { TotalInvestment } from '../components/dashboard/TotalInvestment';
 import { TotalBalance } from '../components/dashboard/TotalBalance';
 
 import { ClassificationChart } from '../components/dashboard/ClassificationChart';
-import { MonthPicker } from '../components/ui/MonthPicker';
-import { WeekPicker } from '../components/ui/WeekPicker';
-import { YearPicker } from '../components/ui/YearPicker';
+import { MonthPicker } from '../components/ui/month-picker';
+import { WeekPicker } from '../components/ui/week-picker';
+import { YearPicker } from '../components/ui/year-picker';
 import { DateRangeFilter } from '../components/dashboard/DateRangeFilter';
 import { type FilterPreset, getDateRange } from '../utils/dateHelpers';
 import { useTransactions } from '../context/TransactionContext';

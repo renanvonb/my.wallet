@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, Circle, X } from 'lucide-react';
 import { Input } from '../ui/input';
-import { Button } from '../ui/Button';
+import { Button } from '../ui/button';
 import { cn } from '../../lib/utils';
 
 interface TransactionFormDrawerProps {

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container } from '../ui/Container';
-import { Section } from '../ui/Section';
+import { Container } from '../ui/container';
+import { Section } from '../ui/section';
 import { motion } from 'framer-motion';
 
 const testimonials = [

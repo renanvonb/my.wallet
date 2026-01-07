@@ -1,9 +1,9 @@
 import React, { useState, useMemo } from 'react';
 import { DashboardLayout } from '../components/layout/DashboardLayout';
 import { PageHeader } from '../components/layout/PageHeader';
-import { MonthPicker } from '../components/ui/MonthPicker';
-import { WeekPicker } from '../components/ui/WeekPicker';
-import { YearPicker } from '../components/ui/YearPicker';
+import { MonthPicker } from '../components/ui/month-picker';
+import { WeekPicker } from '../components/ui/week-picker';
+import { YearPicker } from '../components/ui/year-picker';
 import { DateRangeFilter } from '../components/dashboard/DateRangeFilter';
 import { type FilterPreset } from '../utils/dateHelpers';
 import { MOCK_TRANSACTIONS } from '../data/mockData';
